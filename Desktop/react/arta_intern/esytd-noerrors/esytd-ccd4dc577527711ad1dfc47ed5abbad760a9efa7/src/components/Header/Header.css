@@ -1,0 +1,55 @@
+.header {
+    background-color: #041225;
+    color: #fff;
+    display: flex;
+    padding: 1rem .5rem;
+    justify-content: space-between;
+    /* min-width: 1440px; */
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+}
+
+.header_title {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.header_logout {
+    margin-right: .5rem;
+}
+
+.menu {
+    background: transparent;
+}
+
+/* Customizing drawer */
+.custom-drawer {
+    color: #fff;
+    background-color: #041225 !important;
+}
+
+.custom-drawer .ant-drawer-header {
+    padding-bottom: 1.35rem;
+    border-bottom: 2px solid;
+}
+
+.custom-drawer .ant-drawer-header-title {
+    flex-direction: row-reverse;
+}
+
+.custom-drawer .ant-drawer-title {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+.custom-drawer .ant-drawer-close span{
+    color: #fff;
+}
+
+.custom-drawer .ant-drawer-body {
+    margin-top: 1.2rem;
+    padding: 0;
+}
